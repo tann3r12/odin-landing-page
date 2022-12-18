@@ -12,6 +12,7 @@ body{
     width:350px;
     margin-bottom:70px;
     margin-left:30px;
+    margin-right:70px;
 }
 
 .header{
@@ -35,7 +36,8 @@ body{
 
 .links{
     display:flex;
-    gap:10px;
+    gap:15px;
+    margin-right:70px;
 }
 
 .header2{
@@ -120,6 +122,12 @@ img{
     border-radius:5px;
 }
 
-a{
+a:link{
     color:yellow;
+    text-decoration:none;
 }
+
+a:visited{
+    color:purple;
+}
+
