@@ -20,6 +20,7 @@ body{
     flex-direction:column;
     background-color:#1F2937;
     color:white;
+    width:auto;
 }
 
 .header-text{
@@ -122,9 +123,13 @@ img{
     border-radius:5px;
 }
 
-a{
+a:link{
     color:yellow;
     text-decoration:none;
+}
+
+a:visited{
+    color:yellow;
 }
 
 a:hover{
